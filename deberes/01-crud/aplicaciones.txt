@@ -1,0 +1,18 @@
+Datos de la aplicacion: 
+Id: 1
+Nombre: safari
+Version: 60
+Precio: 3
+Peso en GB: 100
+¿Esta instalado? No
+Id SO: 1
+
+Datos de la aplicacion: 
+Id: 2
+Nombre: edge
+Version: 6
+Precio: 0
+Peso en GB: 50
+¿Esta instalado? No
+Id SO: 1
+
