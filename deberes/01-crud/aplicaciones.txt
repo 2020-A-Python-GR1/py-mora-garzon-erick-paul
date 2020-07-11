@@ -1,0 +1,9 @@
+Datos de la aplicacion: 
+Id: 1
+Nombre: excel
+Version: 10
+Precio: 100
+Peso en GB: 25
+Esta instalado? No
+Id SO: 1
+

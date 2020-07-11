@@ -1,0 +1,8 @@
+Datos del Sistema Operativo: 
+Id: 1
+Nombre: windows
+Version: 10
+Fecha de lanzamiento: 2010
+Peso en GB: 100
+Esta instalado? No
+
