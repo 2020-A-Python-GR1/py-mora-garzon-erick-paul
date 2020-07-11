@@ -2,39 +2,7 @@ Datos del Sistema Operativo:
 Id: 1
 Nombre: windows
 Version: 10
-Fecha de lanzamiento: 2014
-Peso en GB: 10
-Numero de aplicaciones: 0
-¿Esta instalado? Si
-
-Datos del Sistema Operativo: 
-Id: 2
-Nombre: mac
-Version: 14
-Fecha de lanzamiento: 2002
-Peso en GB: 50
-Numero de aplicaciones: 0
-¿Esta instalado? No
-
-Datos del Sistema Operativo: 
-Id: 3
-Nombre: fedora
-Version: 20
 Fecha de lanzamiento: 2010
-Peso en GB: 2
-Numero de aplicaciones: 0
-¿Esta instalado? No
-
-
-
-
-
-Datos del Sistema Operativo: 
-Id: 1
-Nombre: windows
-Version: 7
-Fecha de lanzamiento: 2008
-Peso en GB: 520
-Numero de aplicaciones: 0
-¿Esta instalado? No
+Peso en GB: 100
+Esta instalado? No
 
