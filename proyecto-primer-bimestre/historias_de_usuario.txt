@@ -1,0 +1,3 @@
+Las historias de usuario se encuentran en el siguiente link:
+
+https://github.com/2020-A-Python-GR1/py-mora-garzon-erick-paul/issues
