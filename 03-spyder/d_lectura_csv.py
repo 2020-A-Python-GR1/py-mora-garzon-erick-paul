@@ -27,7 +27,6 @@ df2 = pd.read_csv(
 
 df3 = pd.read_csv(
     path, 
-    nrows=10,
     usecols = columnas,
     index_col = 'id')
 
