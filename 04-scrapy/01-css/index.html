@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scrapy </title>
+    <style>
+        /* ID
+            + nombreID
+        */
+        #titulo-uno{
+            background-color: aqua;
+        }
+        /*  NOMBRE-ETIQUETA 
+        nombre-etiqueta
+        */
+        h1{
+            background-color: green;
+        }
+        body{
+            color:brown;
+            background-color: cornsilk;
+        }
+        p{ 
+            background-color: blue;
+        }
+        .fondo-rojo{
+            background-color: red;
+        }
+        .fondo-verde{
+            background-color: green;
+        }
+        .fondo-amarillo{
+            background-color: yellow;
+        }
+
+        /*Etiqueta dentro de otra etiqueta: */
+        li > p {
+            background-color: violet;
+        }
+
+        body > ul > li > p{
+            background-color: pink;
+        } 
+
+ 
+
+} 
+    </style>
+</head>
+<body>
+    <h1 id="titulo-uno"> Titulo </h1>
+    <h1>Otro Titulo</h1>
+    <h1 class="fondo-rojo">tercer titulo</h1>
+    <p>parrafo 1</p>
+    <p class="fondo-amarillo fondo-rojo fondo-verde"
+        style="background-color: black;"
+        id="titulo-uno"
+    >parrafo 2</p>
+    <p class="fondo-rojo">parrafo 3</p>
+    <ul>
+        <li>uno</li>
+        <li><p>dos</p></li>
+        <li>tres</li>
+    </ul>
+    <li><p>fuera de ul</p></li>
+</body>
+</html>
