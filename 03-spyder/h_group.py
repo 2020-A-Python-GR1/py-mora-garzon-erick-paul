@@ -11,7 +11,7 @@ import math
 import numpy as np
 
 
-path_guardado = "/home/dev-11/Documents/Github/py-eguez-sarzosa-vicente-adrian/03 - Pandas/data/artwork_data.pickle"
+path_guardado = "./data/artwork_data.pickle"
 
 df = pd.read_pickle(path_guardado)
 
@@ -56,7 +56,9 @@ def llenar_valores_vacios(series, tipo):
             series_valores_llenos = series.fillna(promedio)
             return series_valores_llenos
         if(tipo == 'mas_repetido'):
-            pass
+            valores = series.value_counts()
+            series_valores_llenos= series.fillna(valores.index[0])
+            return series_valores_llenos
             
 
 def transformar_df(df):
