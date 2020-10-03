@@ -24,6 +24,10 @@ def parse_rating(texto):
     texto = re.sub(r"icon.","",texto)
     return texto.replace("r","")
 
+def parse_year(texto): 
+    texto = re.sub(r"icon.","",texto)
+    return texto.replace("Video Game","")
+
 def strip_text(texto): 
     texto = f"{texto}"
     return texto.strip()

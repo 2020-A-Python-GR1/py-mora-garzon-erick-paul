@@ -66,8 +66,8 @@ ITEM_PIPELINES = {
    'arania_proyecto.pipelines.RepararReleases': 200
 }
 
-FEED_FORMAT = 'csv'
-FEED_URI = 'tmp/database_peliculas.csv'
+#FEED_FORMAT = 'csv'
+#FEED_URI = 'tmp/videojuegos.csv'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
